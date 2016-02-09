@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>major(7) - a social nerd - Linux man page</title>
+  <title>jayson(7) - Jayson Cena - DevOps, distributed systems engineer-wannabe - Linux man page</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8">
   <style type="text/css">
     body {
@@ -57,7 +57,7 @@
       text-decoration: underline;
     }
   </style>
-<script>
+<!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -66,242 +66,196 @@
   ga('create', 'UA-1115744-9', 'auto');
   ga('send', 'pageview');
 
-</script>
+</script> -->
 </head>
 <body>
 
-<div class="linkfloater">
-  <span>Major's Links</span><hr>
-  <a href="http://major.io/">major.io</a><br>
-  <a href="https://major.io/icanhazip-com-faq/">icanhazip.com</a><br><br>
-  <a href="http://github.com/major">GitHub</a><br>
-  <a href="http://twitter.com/majorhayden">Twitter</a><br>
-  <a href="https://plus.google.com/+MajorHayden/">Google+</a><br>
-  <a href="https://www.linkedin.com/in/majorhayden">LinkedIn</a><br><br>
+<!-- <div class="linkfloater">
+  <span>Jayson's Links</span><hr>
+  <a href="http://blog.clusterfoundry.com/">blog.clusterfoundry.com</a><br>
+  <a href="https://iptools.sh">iptools.sh</a><br><br>
+  <a href="http://github.com/jaysoncena">GitHub</a><br>
+  <a href="http://twitter.com/cenajayson">Twitter</a><br>
+  <a href="https://www.linkedin.com/in/jaysoncena">LinkedIn</a><br><br>
   Why does<br>this resume<br>look strange?<br>
   It's a <a href="http://en.wikipedia.org/wiki/Man_page">man page</a>!
-</div>
+</div> -->
 
 <pre class="manheader">
-MAJOR(7)                           Linux User's Manual                            MAJOR(7)
+JAYSON(7)                          Linux User's Manual                           JAYSON(7)
 </pre>
 <h1>NAME</h1>
 <p class="subtext">
-  Major Hayden - a social nerd
+  Jayson Cena - DevOps, distributed systems engineer-wannabe
 </p>
 
 <h1>SYNOPSIS</h1>
 <p class="subtext">
-  major [--admin systems|database] [--contributor] [--developer] [--educator] <br />
-  [--leader] [--other]
+  jayson [--admin linux|database|java|network|amazon_web_services]<br />
+         [--language python|java|php|javascript|perl]<br />
+         [--continuous delivery|deployment]<br />
+         [--developer] [--leader] [--startups]<br />
+         
 </p>
 
 <h1>SUMMARY</h1>
 <p class="subtext">
-  I’m a Linux Engineer with skills in database administration, system
-  administration, application development and leadership. I enjoy connecting people with
-  technology solutions that are easy to use, affordable, and sustainable over
-  time.  I'm familiar with, and a huge supporter of, the DevOps culture and how
-  to make it work with a large team in a fast paced environment.
+  I'm a DevOps Engineer with 9 years experience supporting high-traffic Java and PHP
+  applications and developers. I started as a Linux System Administrator and my curiosity
+  to software development made me
 </p>
 <p class="subtext">
-  Information security has also been an interest of mine.  As the Chief Security
-  Architect for Rackspace, I led a team of senior Windows, Linux and networking
-  engineers who were dedicated to increasing security within Rackspace and for
-  our customers. We provided critical security advisement to the business as a 
-  whole and we fueled technical security projects that reduced risk, reduced 
-  product development cycle time, and increased customer confidence.
+  Distributed applications and database systems has also been an interest of mine. As a
+  DevOps Engineer and open-source advocate, I've seen a lot of algorithms from papers
+  published more than a decade ago that are being used on NoSQL databases and distributed
+  systems today. From the older Paxos to the newer Raft algorithm, Gossip and Vector
+  Clocks, MapReduce from Google in 2004 up to your huge list of Graph Algorithms. One of
+  my goals in life is to use these algorithms to create an intelligent monitoring system.
+  This system will help systems engineers in predicting which system will fail and in
+  intelligently identifying the root cause of the problem.
 </p>
 <p class="subtext">
-  I was previously working on the OpenStack project and its integration
-  with Citrix Xenserver and Nicira's networking stack.  I also maintained our
-  high-availability clusters, Debian packaging and various system tools and scripts.
-  Our team created a highly automated continuous integration system with Jenkins
-  that allowed us to test and deploy new code much more rapidly than before.
+  Python scripting has also been my main language when I want to make things automated.
+  I've written a handful of scripts that are being used on such as: health-check daemon
+  for a clustered MySQL database, implementing continuous delivery using Fabric module,
+  database automation framework for AWS DynamoDB, policy daemon for Postfix(SMTP) and
+  Squid HTTP proxy. You can also check my Github page for a list of projects that I
+  shared publicly. I also started using Java for any projects that requires performance.
+  Right now I am still in the discovery phase in using Vert.X framework.
 </p>
+<p class="subtext">
+  I'm also working on a research about concurrent connection problems seen on high-traffic
+  sites. It is basically about how a specific programming language and framework can
+  handle concurrent connections. Right now it is only covering performance metrics on HTTP
+  and websocket implementations on different languages such as Java, NodeJS and Go. The
+  research also includes distributed load-testing using Tsung, tuning the TCP stack of a
+  linux kernel, average memory consumption per each websocket connection, ping-pong
+  latency and the impact of context switches used for every handshake.
+</p>
+
 <h1>OPTIONS</h1>
 <p class="subtext">
-  --admin systems
+  --admin linux
 </p>
 <p class="doublesubtext">
-  Extensive experience with the configuration, hardening, and maintenance of
-  various Linux distributions, including:
+  Professional experience with configuration, hardening, custom kernel compilations and
+  maintenance of various Linux distributions, including:
 </p>
 <p class="triplesubtext">
-  * Red Hat Enterprise Linux, Fedora, CentOS, Scientific Linux<br />
+  * Amazon Linux AMI, Red Hat Enterprise Linux, Fedora, CentOS<br />
   * Debian, Ubuntu<br />
-  * Gentoo<br />
 </p>
 <p class="doublesubtext">
-  Comfortable working with open source Xen and Xen Server installations in 
-  large-scale environments. Able to customize and patch upstream pv-ops kernels
-  for use with Xen and also familiar with the preparation and maintenance of
-  base images for Xen guests.  Very proficient with KVM and the libvirt tool stack.
+  Experienced in server provisioning using the tools such as Chef, Puppet and SaltStack.
+  CloudFormation for provisioning network, dynamoDB database and EC2 instances in AWS.
 </p>
 <p class="doublesubtext">
-  Experienced in rapid deployment and configuration management technologies
-  such as kickstarts, Red Hat Satellite Server, and Ansible.
+  Comfortable working with Docker containers and exploring with distributed container
+  management using Kubernetes and Mesos-Marathon. Experience with OpenVZ container
+  working at <a href="http://webenabled.com/">WebEnabled</a> - A PaaS provider.  
 </p>
 <p class="doublesubtext">
-  Able to set up vital Linux infrastructure components including load balancers,
-  DNS servers, web/application servers, and mail servers.  Familiar with
-  network-level security policies as well as server-level security layers like
-  SELinux.  Well-versed in RouterOS network device management with RouterOS
-  software.
+  Low-level troubleshooting using various tools not limited to strace, sysstat package
+  which includes mpstat, iostat, sar, pidstat, etc. 
 </p>
 <p class="doublesubtext">
-  GIAC Certifications:
+  Able to setup, manage and customize Linux-based services not limited to
 </p>
 <p class="triplesubtext">
-  * <a href="http://www.giac.org/certified-professional/major-hayden/138471">
-      GIAC Security Essentials (GSEC)</a><br />
-  * <a href="http://www.giac.org/certified-professional/major-hayden/138471">
-      GIAC Certified UNIX Security Administrator (GCUX)</a><br />
-      &nbsp;&nbsp;GIAC Gold status<br />
+  * HAProxy for load-balancing<br />
+  * Apache, NginX for Web Servers<br />
+  * Samba, iSCSI, NFSv4 for network storage<br />
+  * Squid for Caching Proxy including distributed cache peers<br />
+  * Postfix, Dovecot, SpamAssassin, etc. for a complete mail server stack<br />    
 </p>
 <p class="doublesubtext">
-  Red Hat Linux Certifications:
+  Certifications:
 </p>
 <p class="triplesubtext">
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-      Red Hat Certified Architect</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-      Red Hat Certified Datacenter Specialist</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-      Red Hat Certified Engineer - RHEL 4</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-      Red Hat Certified Engineer - RHEL 5</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-      Red Hat Certified Engineer - RHEL 6</a><br />
+  * <a href="#">
+      Red Hat Certified Engineer</a><br />
+  * <a href="#">
+      AWS SysOps Administrator</a><br />
 </p>
-<p class="doublesubtext">
-  Red Hat Linux Certificates of Expertise:
-</p>
-<p class="triplesubtext">
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-    EX333 - Enterprise Security: Network Services</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-    EX401 - Deployment and Systems Management</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-    EX423 - Directory Services and Authentication</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-    EX436 - Storage Management</a><br />
-  * <a href="https://www.redhat.com/wapps/training/certification/verify.html?certNumber=110-268-455">
-    EX442 - System Monitoring and Performance Tuning</a><br />
-</p>
+
 <p class="subtext">
   --admin database
 </p>
 <p class="doublesubtext">
-  Skilled in MySQL database administration for standalone servers as well as
-  replicated and clustered environments.  Authored 
-  <a href="http://mysqltuner.com/">MySQLTuner</a> in an effort to efficiently
-  optimize database servers based on their specific workloads.
+  Skilled in MySQL Administration for standalone and distributed environments. Also
+  includes performance troubleshooting such as index hinting, EXPLAIN statement and
+  table partitioning. Authored the following tools for managing Galera-based
+  replication for MySQL (MariaDB Galera Cluster, Percona XtraDB Cluster)
+</p>
+<p class="triplesubtext">
+  * <a href="https://github.com/jaysoncena/mysqlcheck">
+    mysqlcheck</a> - node health check daemon, used for HAProxy health checking<br />
+  * <a href="https://github.com/jaysoncena/ocf_ra_mysqlgalera">
+    ocf_ra_mysqlgalera</a> - Pacemaker resource agent for managing cluster of MySQL<br />
 </p>
 <p class="doublesubtext">
-  Currently a Certified MySQL Database Administrator.
+  Professional experience on managing a 5-node Couchbase NoSQL Database and Elasticsearch.
+  If job permits, I would also like to manage a massively-scalable NoSQL databases such as
+  Cassandra and HBase.
 </p>
 
 <p class="subtext">
-  --contributor
+  --admin java
 </p>
 <p class="doublesubtext">
-  Serving on the <a href="http://fedoraproject.org/wiki/Board">Fedora Project Board</a> since 2012.
+  Skilled in managing and troubleshooting Java applications not limited to JMX monitoring,
+  investigation for memory leaks and blocked threads. Proficient in building and packaging
+  Java applications using Maven.
 </p>
 <p class="doublesubtext">
-  Currently a 
-  <a href="https://admin.fedoraproject.org/pkgdb/users/packages/mhayden">
-  package maintainer</a> for the following Fedora Linux packages:
+  Experienced in supporting Java applications running/based on Tomcat, DropWizard, Vert.X
+  and Grizzly framework.
+</p>
+
+<p class="subtext">
+  --admin network
+</p>
+<p class="doublesubtext">
+  Deep expertise in the following topics
 </p>
 <p class="triplesubtext">
-  * apt-mirror<br />
-  * drbd<br />
-  * httpry<br />
-  * mysqltuner<br />
+  * HTTP and WebSocket<br />
+  * SSL/HTTPS and how CA authorities work<br />
+  * Tuning TCP settings on Linux Kernel to achieve at least 500k concurrent connections
+  * Load-balancers like F5 Big-IP, HAProxy and things related to scalability
+  * IPtables and tc(Linux Traffic Control)
+  * Routing and Switching<br />
+</p>
+
+<p class="subtext">
+  --admin amazon_web_services
 </p>
 <p class="doublesubtext">
-  All projects can be found in
-  <a href="https://github.com/major">GitHub</a>. Most efforts are
-  related to the following projects:
-</p>
-<p class="triplesubtext">
-  * <a href="http://major.github.com/supernova/">
-      supernova</a><br />
-  * <a href="http://major.github.com/rackspace-clouddns-gui/">
-      Rackspace Cloud DNS GUI</a> (deprecated)<br />
-  * <a href="https://github.com/major/mysql-json-bridge">
-      mysql-json-bridge</a><br />
-  * <a href="https://github.com/major/MySQLTuner-perl">
-      MySQLTuner-perl</a><br />
-  * <a href="https://github.com/major/kickstarts">
-      kickstarts</a><br />
-</p>
-<p class="doublesubtext">
-  I've contributed code to various OpenStack projects during my daily work at
-  Rackspace.  In addition, I've written scripts and tools to make managing
-  an OpenStack environment a little easier.  Although some are Rackspace-specific
-  and proprietary, I release a large amount of code on GitHub as open source.
-</p>
-<p class="doublesubtext">
-  A selection of projects I've contributed to over the years:
-</p>
-<p class="triplesubtext">
-  * <a href="https://github.com/ansible/ansible">ansible</a><br />
-  * <a href="https://github.com/major/cis-rhel-ansible">cis-rhel-ansible</a><br />
-  * <a href="https://github.com/haraldh/dracut">dracut</a><br />
+  Expertise on AWS EC2, S3, EBS, Route53, Elastic Map Reduce, DataPipeline, DynamoDB
 </p>
 
 <p class="subtext">
   --developer
 </p>
 <p class="doublesubtext">
-  <a href="https://github.com/major/cis-rhel-ansible">cis-rhel-ansible</a><br>
-  Audit and remediate security benchmarks on Red Hat Enterprise Linux servers
-  using Ansible.  Used Center for Internet Security (CIS) benchmarks as a
-  baseline.
+  <a href="https://github.com/jaysoncena/wordpress-memcache">wordpress-memcache</a><br>
+  PHP wrapper for Wordpress, serves and caches pages directly from Memcached
 </p>
 <p class="doublesubtext">
-  <a href="https://github.com/major/mysql-json-bridge">mysql-json-bridge</a><br>
-  Allows for MySQL results to be delivered via JSON.  Consumers need no access to the
-  databases being queried.
+  <a href="https://github.com/jaysoncena/mysqlcheck">mysqlcheck</a><br>
+  Healthcheck gateway written in Python. It checks the current node is an active member
+  of MySQL Galera cluster. Exposes mysql health status as an HTTP endpoint so that HAProxy
+  can do an in-depth health check.
 </p>
 <p class="doublesubtext">
-  <a href="https://github.com/major/MySQLTuner-perl">mysqltuner</a><br>
-  MySQLTuner is a script written in Perl that will assist you with your MySQL
-  configuration and make recommendations for increased performance and stability.
-  Development has gone a bit dormant but I do what I can to keep it updated.
+  <a href="https://github.com/jaysoncena/ocf_ra_mysqlgalera">ocf_ra_mysqlgalera</a><br>
+  Pacemaker resource agent that links Galera-based Mysql cluster to the Pacemaker Cluster
+  Manager. Using this resource agent, Pacemaker can actively do health checks and
+  appropriately remove and/or add node to the cluster.
 </p>
 <p class="doublesubtext">
-  <a href="https://github.com/major/supernova">supernova</a><br>
-  The supernova wrapper for novaclient allows a user to store credentials for multiple
-  OpenStack environments and use them with simple command line arguments.  Credentials
-  can be stored in system keychains for increased security.
-</p>
-<p class="doublesubtext">
-  Currently focused on Python for work with OpenStack components but able to
-  work with Ruby, PHP, Perl, and shell scripting if needed.
-</p>
-
-<p class="subtext">
-  --educator
-</p>
-<p class="doublesubtext">
-  Started multiple projects to share knowledge and assist other technical people:
-</p>
-<p class="triplesubtext">
-  * <a href="http://major.io/">
-      major.io</a> - words of wisdom from a server administrator<br />
-  * <a href="http://pleskhacker.com/">
-      Plesk Hacker</a> - detailed documentation of the Plesk database<br />
-  * <a href="http://icanhazip.com/">
-      icanhazip</a> - simple public IP detection<br />
-  * <a href="http://mysqltuner.com/">
-      MySQL Tuner</a> - high-performance MySQL tuning script<br />
-</p>
-<p class="doublesubtext">
-  Compiled and taught classes covering various systems administration topics
-  including MySQL database administration, SSL certificates, and server
-  security.
+  Currently focused on Python and Bash for scripting and automation but able to work with
+  PHP, Java, JavaScript if needed.
 </p>
 
 <p class="subtext">
@@ -317,64 +271,72 @@ MAJOR(7)                           Linux User's Manual                          
   operations environment. Experienced with sprint planning, release planning,
   and change management coordination.
 </p>
+
 <p class="subtext">
-  --other
+  --startups
 </p>
 <p class="doublesubtext">
-  Published articles and presentations:
+  Worked on the following startups:
+  (Full details is available on my LinkedIn profile)
 </p>
 <p class="triplesubtext">
-  <a href="http://www.scmagazine.com.au/News/340475,stop-disabling-selinux.aspx">Stop Disabling SELinux</a>, <em>SC Magazine</em><br>
-  <a href="https://bit.ly/evadethebreach">Evade the Breach</a>,
-    <em>Prepared for Accruent Insights 2014</em>
-</p>
-<p class="doublesubtext">
-  Formerly certified as an Emergency Medical Technician in Texas.
+  * <a href="http://webenabled.com/">WebEnabled</a> - Linux System Administrator<br />
+    Worked on cluster automation, scaling Web Servers to multiple nodes including
+    MySQL Cluster (Galera-based)<br /><br />
+  * <a href="http://www.bidpath.com/">SAM Auction Software</a> - System Engineer for LAMP Cluster<br />
+    Scaling PHP and MySQL cluster to multiple nodes. Implemented a 3-node Couchbase
+    Server for distributed session store<br /><br />
+  * <a href="https://www.openfiler.com/">OpenFiler</a> - L2 Support Engineer in Storage Cluster (Open-Source)
+    Implementation of Active/Passive system on OpenFiler Storage Server<br /><br />
+  * <a href="http://www.alterpoint.com/">Versata/Alterpoint</a> - Perl Networking Developer
+    Heavily used regular expressions for parsing configurations from Cisco IOS, Nexus
+    and other major network devices.
 </p>
 
 <h1>HISTORY</h1>
 <p class="subtext bottomcut">
-  * <a href="http://rackspace.com/">Rackspace</a>
+  * <a href="http://autodesk.com/">Autodesk</a>
 </p>
 <p class="doublesubtext">
-  - Cloud Architect, Cloud Servers<br>
-  - Chief Security Architect, Director<br>
-  - Linux Engineer, OpenStack / Next-Generation Cloud Servers<br>
-  - Engineering Manager, Cloud Servers Operations<br>
-  - Senior Systems Engineer<br>
-  - Linux Systems Administrator
+  - Senior DevOps Engineer
 </p>
 <p class="subtext bottomcut">
-  * SecureTrust Corporation<br />
-  &nbsp;&nbsp;(now a wholly owned subsidiary of
-  <a href="http://trustwave.com/">Trustwave Holdings, Inc.</a>)
+  * <a href="http://bodog.com/">Bodog (Online Gambling)</a>
 </p>
 <p class="doublesubtext">
-  - VP of Operations<br />
-  - Lead Developer
+  - DevOps Engineer
 </p>
 <p class="subtext bottomcut">
-  * <a href="http://www.amr.net/">American Medical Response</a>
+  * <a href="http://www.fujitsu.com/ph/">Fujitsu Philippines, Inc.</a>
 </p>
 <p class="doublesubtext">
-  - Field Medic / EMT
+  - Linux Technical Support Specialist
+</p>
+<p class="subtext bottomcut">
+  * <a href="http://teamglac.com">Team Pacific Corporation</a>
+</p>
+<p class="doublesubtext">
+  - Section Head for MIS<br />
+  - Linux Administrator
 </p>
 
 <h1>SEE ALSO</h1>
 <p class="subtext">
-  * E-mail:      major at mhtx dot net<br />
-  * Phone:       210.370.7667 (yes, that's 210.370.POOP)<br />
-  * Twitter:     <a href="http://twitter.com/majorhayden">majorhayden</a><br />
-  * LinkedIn:	 <a href="http://www.linkedin.com/in/majorhayden/">http://www.linkedin.com/in/majorhayden/</a><br />
-  * IRC:         mhayden on irc.freenode.net
+  * E-mail:      jayson [dot] cena [at] gmail [dot] com<br />
+  * Phone:       +65.923.334.677<br />
+  * Github:      <a href="https://github.com/jaysoncena">github.com/jaysoncena</a><br />
+  * Twitter:     <a href="http://twitter.com/cenajayson">@cenajayson</a><br />
+  * LinkedIn:	   <a href="http://linkedin.com/in/jaysoncena/">linkedin.com/in/jaysoncena/</a><br />
+  * CV Website:  <a href="https://jayson.cena.ph">jayson.cena.ph</a><br />
+  * IPTools.sh:  <a href="https://iptools.sh">iptools.sh</a><br />
 </p>
 
 <pre class="manheader">
-Major Hayden                          2014-12-11                                  MAJOR(7)
+Jayson Cena                           2014-12-11                                 JAYSON(7)
 </pre>
 
 <p class="footer">
-  &copy; 2014 Major Hayden
+  &copy; 2016 Jayson Cena
 </p>
 </body>
 </html>
